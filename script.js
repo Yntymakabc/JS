@@ -84,7 +84,155 @@ console.log(message);
 const f = null
 const g = 8
 const result2 = f ?? g
-console.log(result2)
+//console.log(result2)
 
 //“If the first value is not null or undefined, return it.
 //Otherwise, return the second value.”
+
+
+// let ab = 3
+// do{
+//   console.log("she said yes")
+//   ab++
+// }while (ab >90)
+
+
+// for(let i=0; i <10; i++){
+//   alert(i)
+// }
+
+/////////////////////////////////////////////////
+
+//alert("this is alert button")
+
+
+//const pro = prompt("waht is your name", "ytnymak")
+//console.log("his name is: " + pro)
+
+
+
+//confirm("Are you sure you want to leave this browser?")
+
+
+// const pro = prompt("write you age!")
+// switch(prompt){
+//   case 0: {
+//     console.log("you age is 0 you are too young")
+//     break
+//   }
+//   case 17:{
+//     console.log("almost adult")
+//     break
+//   }
+//   default:{
+//     console.log("your age is:" + pro)
+//   }
+// }
+
+
+
+// const arr= [1,2,3,,5]
+// for(let i=0; i<arr.length; i++){
+//   switch(i){
+//     case 0:{
+//       console.log("this number is zero")
+//       break
+//     }
+//     case 1:{
+//       console.log("this number is two ")
+//       break
+//     }
+//     case 2:{
+//       console.log('this number is 2')
+//       break
+//     }
+//     default: {
+//       console.log('this is default value')
+
+
+//     }
+//   }
+// }
+
+
+// function summ(whom, a){
+//   console.log(whom + a)
+// }
+
+// summ("yntmyak", 12)
+
+//to put underfined it's better to put it at the beggining since you have to write undefined till the one if it's in the end
+// function abcd(num, num1 =2, num2 = 5){
+//   console.log(num1+num2)
+// }
+// abcd(undefined,9)
+
+
+
+// const arr = [2,3,5,67]
+// function findsum(arr){
+//   let sm = 0
+//   for(let i = 0; i < arr.length; i++){
+//     sm += arr[i]  
+//   }
+//   return sm
+// }
+
+// console.log(findsum(arr))
+
+
+
+
+// function fun(num){
+//   switch(num){
+//     case 1:{
+//       console.log("this is on")
+//       break
+//     }
+//     default:{
+//       console.log('any number')
+//     }
+//   }
+// }
+
+// fun(1)
+
+//!!!!!!!!!!!!!!!DON"T KNOW WHy
+// function arg(){
+//   console.log(arguments)
+// }
+
+// arg("hrllo" ,3, true)
+
+
+
+
+// const gg = function(){
+//   console.log("this is the good")
+// }
+// gg()
+
+
+
+
+// const gg = function(a,b){
+//   return a + b
+// }
+// console.log(gg(1,2))
+
+
+// const addSum = (a,b) => {
+//   return a+b
+// }
+
+// console.log(addSum(23,2))
+
+
+// const good = (name, age) => {
+//   return name + age
+// }
+
+// const bad = (name, age)=> name + age
+
+// console.log(bad("yntmyak ", 20))
+
