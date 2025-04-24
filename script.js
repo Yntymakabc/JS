@@ -339,12 +339,43 @@ const result2 = f ?? g
 // console.log(obj)
 
 ///LOOK at this values
-const obj = {
-  doga: "alex", 
-  age :13, 
-  ['isgood']:true
+// const obj = {
+//   doga: "alex", 
+//   age :13, 
+//   ['isgood']:true
+// }
+
+// for(const value in obj){
+//   console.log(obj[value])
+// }
+
+
+// const obj = {
+//   name: "akmat", 
+//   age :12
+
+// }
+
+// const obj2 = Object.assign({}, obj)
+// const obj3 = {...obj}
+// console.log(obj)
+// console.log(obj2)
+// console.log(obj3)
+
+
+
+// const person = {
+//     name : "hayvan", 
+//     age :4, 
+    // origin:{
+    //   city:"naryn", 
+    //   vallage: "ak tash"
+    // }
 }
 
-for(const key in obj){
-  console.log(obj[key])
-}
+
+//if the origin is exists than it should work if not it gonna continue
+// console.log(person.origin?.city)
+// console.log("hello world")
+
+
