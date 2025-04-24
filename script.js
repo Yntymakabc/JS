@@ -371,11 +371,23 @@ const result2 = f ?? g
     //   city:"naryn", 
     //   vallage: "ak tash"
     // }
-}
+//}
 
 
 //if the origin is exists than it should work if not it gonna continue
 // console.log(person.origin?.city)
 // console.log("hello world")
+
+
+///IMPORTANT
+const cat = {
+  name7 : "akmat", 
+  age7 : 23, 
+  from7 : "irland",
+}
+
+const {name7, age7, from7} = cat
+
+console.log(name7)
 
 
