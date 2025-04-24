@@ -250,24 +250,101 @@ const result2 = f ?? g
 
 
 
-const hasAcess = (age)=>{
-  switch(age){
-    case 1 :{
-      return "you are too young"
-      break
-    }
-    case 2 :{
-      return "this is also yong"
-      break
-    }
-    case 3 :{
-      return "now it's ok"
-      break
-    }
-    default:{
-      return "you can come to kindergarten"
-    }
-  }
+// const hasAcess = (age)=>{
+//   switch(age){
+//     case 1 :{
+//       return "you are too young"
+//       break
+//     }
+//     case 2 :{
+//       return "this is also yong"
+//       break
+//     }
+//     case 3 :{
+//       return "now it's ok"
+//       break
+//     }
+//     default:{
+//       return "you can come to kindergarten"
+//     }
+//   }
+// }
+
+// console.log(hasAcess(1))
+
+
+
+// const findSum = (n) =>{
+//   let sm = 0
+//   for(let i=0; i <= n; i++ ){
+//     sm+=i
+
+//   }
+//   return sm
+// }
+
+// console.log(findSum(3))
+
+
+
+
+///////////////////////////////////////OBJECTS
+
+
+// const person = {
+//   name : "yntymak", 
+//   age : 12, 
+//   'registration date' : "12.12.26", 
+
+// }
+//console.log(person.name)
+//console.log(person["registration date"])
+
+
+
+// const value = "yntymak"
+// const name3 = "name"
+
+
+// const obj = { 
+//   [name3]:value
+// }
+// //console.log(obj)
+
+// const bob  ={
+//   name:"yntymak", 
+//   age:34
+// }
+// console.log(bob)
+
+
+
+// const obj = {}
+
+// obj.name = 'aibek'
+// obj.age = 14
+// obj.subject = 'math'
+// obj["has girlfriend"] = false
+// console.log(obj['has girlfriend'])
+// delete obj.name
+// console.log(obj)
+
+// let name5 = 'aibek'
+// let age5 = 34
+
+// const obj = {
+//   name5,
+//   age5
+// }
+// console.log(obj)
+
+///LOOK at this values
+const obj = {
+  doga: "alex", 
+  age :13, 
+  ['isgood']:true
 }
 
-console.log(hasAcess(1))
+for(const key in obj){
+  console.log(obj[key])
+}
