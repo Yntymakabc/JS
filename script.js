@@ -236,3 +236,38 @@ const result2 = f ?? g
 
 // console.log(bad("yntmyak ", 20))
 
+
+
+// const combine = (first, second)=>{
+//   first()
+//   console.log("now it's time for second function")
+//   second()
+// }
+
+// const first = ()=> console.log('hello it is the first function')
+// const second = () => console.log('this is the second function')
+// combine(first, second)
+
+
+
+const hasAcess = (age)=>{
+  switch(age){
+    case 1 :{
+      return "you are too young"
+      break
+    }
+    case 2 :{
+      return "this is also yong"
+      break
+    }
+    case 3 :{
+      return "now it's ok"
+      break
+    }
+    default:{
+      return "you can come to kindergarten"
+    }
+  }
+}
+
+console.log(hasAcess(1))
