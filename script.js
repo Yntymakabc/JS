@@ -421,3 +421,21 @@ let sentence = "he was a good persong"
 sentence = sentence.replace('he', 'she')
 //console.log(sentence)
 
+const arr =['aibek', 'hello ', 'world']
+arr.push('aku')
+arr.unshift("first", 'second')
+//arr.pop()
+arr.shift()
+//console.log(arr.toString())
+///console.log(arr.join(', '))
+
+
+const vari = 'one,two,three,four,seven'
+//console.log(vari.split(","))//.join(','))
+
+//console.log(arr2.join(', '))
+const arr2 = [1,2,3,44,5,6,4,3]
+const arr3 = ["yntymak", 'aku', 'aibek']
+const total = [...arr2, ...arr3]
+const total2 = arr2.concat(arr3)
+//console.log(total2)
