@@ -379,15 +379,45 @@ const result2 = f ?? g
 // console.log("hello world")
 
 
-///IMPORTANT
-const cat = {
-  name7 : "akmat", 
-  age7 : 23, 
-  from7 : "irland",
-}
+// ///IMPORTANT
+// const cat = {
+//   name7 : "akmat", 
+//   age7 : 23, 
+//   from7 : "irland",
+// }
 
-const {name7, age7, from7} = cat
+// const {name7, age7, from7} = cat
 
-console.log(name7)
+// console.log(name7)
 
+
+//const arr = [1,3,5,43,2,6,5,]
+//console.log(Math.min(...arr))
+let number = "1234"
+// console.log(number)
+// console.log(typeof(number))
+// console.log(Number(number))
+// console.log(typeof(number))
+
+
+
+let number2 = "1245dfd"
+// console.log(parseInt(number2))
+
+
+let something = "Yntymak"
+//console.log(something.length)
+
+//console.log(something[1])//we can't use with brakents negative values so se use 
+//console.log(something.at(-1))
+
+
+//console.log(arr.indexOf(43))
+let sentence = "he was a good persong"
+//console.log(sentence.startsWith('he'))
+
+//console.log(sentence.slice(0,6))
+
+sentence = sentence.replace('he', 'she')
+//console.log(sentence)
 
