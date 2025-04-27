@@ -39,11 +39,16 @@ def get_user():
 @app.route("/delete_user", methods = ["DELETE", "GET"])
 def delete_user():
     name = str(request.args.get("nameToDelete"))
-    del db[name]
-    return jsonify({
-        "success":True, 
-        "message":"susseccfully deleted"
-    })
+    try:
+        del db[name]
+        return jsonify({
+            "success":True, 
+            "message":"susseccfully deleted"
+        })
+    except:
+        return jsonify({
+            "message":"the user is not found"
+        })
 
 
 
