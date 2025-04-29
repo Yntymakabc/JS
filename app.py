@@ -1,7 +1,9 @@
 from flask import Flask, jsonify, request
 from collections import defaultdict
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)  # Enable CORS for all routes
 db = defaultdict(str)
 
 
@@ -49,7 +51,18 @@ def delete_user():
         return jsonify({
             "message":"the user is not found"
         })
-
+    
+from random import randint
+@app.route("/get_question")
+def get_question():
+    num = randint(0,100)
+    num2 = randint(0,100)
+    return jsonify({
+        "question": f"{num} + {num2}", 
+        "anwer": num+num2
+    })
+        
+    
 
 
 

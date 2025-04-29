@@ -2,10 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8"> 
-    <title>Document</title>
+    <title>Math Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        #question {
+            font-size: 24px;
+            margin: 20px 0;
+            height: 30px;
+        }
+        input {
+            padding: 8px;
+            font-size: 18px;
+        }
+        button {
+            padding: 8px 16px;
+            margin-right: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        #feedback {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <button>this button</button>
+    <h1>Math Quiz</h1>
+    <p id="question"></p>
+    <input id="answer" placeholder="Type your answer here">
+    <br><br>
+    <button id="check">Get Question</button>
+    <button id="get">Check Answer</button>
+    <p id="feedback"></p>
+    
     <script src="./script.js"></script>
 </body>
 </html>

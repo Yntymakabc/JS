@@ -367,10 +367,10 @@
 // // // const person = {
 // // //     name : "hayvan", 
 // // //     age :4, 
-// //     // origin:{
-// //     //   city:"naryn", 
-// //     //   vallage: "ak tash"
-// //     // }
+// // //     // origin:{
+// // //     //   city:"naryn", 
+// // //     //   vallage: "ak tash"
+// // //     // }
 // // //}
 
 
@@ -508,4 +508,52 @@
 // //console.log(toObject)
 
 
-console.log(window)
+
+// // Get button references
+// const getQuestionBtn = document.getElementById("check");
+// const checkAnswerBtn = document.getElementById("get");
+// const questionElement = document.getElementById("question");
+// const answerInput = document.getElementById("answer");
+// const feedbackElement = document.getElementById("feedback");
+
+// let correctAnswer;
+
+// // Add event listener to "Get Question" button
+// getQuestionBtn.addEventListener("click", () => {
+//     fetch("http://127.0.0.1:5000/get_question")
+//         .then(response => response.json())
+//         .then(data => {
+//             questionElement.textContent = data.question;
+            
+//             // Store the correct answer (fix the typo in your API response)
+//             correctAnswer = data.anwer || data.answer; 
+            
+//             // Clear previous answers and feedback
+//             answerInput.value = "";
+//             feedbackElement.textContent = "";
+        
+//         })
+// });
+
+// // Add event listener to "Check Answer" button
+// checkAnswerBtn.addEventListener("click", () => {
+//     if (!correctAnswer) {
+//         feedbackElement.textContent = "Please get a question first!";
+//         return;
+//     }
+    
+//     const userAnswer = parseInt(answerInput.value);
+    
+//     if (userAnswer === correctAnswer) {
+//         feedbackElement.textContent = "Correct! Well done! 👍";
+//         feedbackElement.style.color = "green";
+//     } else {
+//         feedbackElement.textContent = `Sorry, that's incorrect. The correct answer is ${correctAnswer}.`;
+//         feedbackElement.style.color = "red";
+//     }
+// });
+
+
+// // // // const good = (name, age) => {
+// // // //   return name + age
+// // // // }
